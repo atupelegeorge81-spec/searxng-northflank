@@ -1,0 +1,32 @@
+{
+  "name": "searxng",
+  "description": "SearXNG from GitHub",
+  "buildSource": "git",
+  "vcsData": {
+    "projectUrl": "https://github.com/atupelegeorge81-spec/searxng-northflank",
+    "projectType": "github",
+    "accountLogin": "atupelegeorge81-spec",
+    "projectBranch": "main"
+  },
+  "buildSettings": {
+    "dockerfile": {
+      "buildEngine": "buildkit",
+      "dockerFilePath": "/Dockerfile",
+      "dockerWorkDir": "/"
+    }
+  },
+  "deployment": {
+    "instances": 1,
+    "docker": {
+      "configType": "default"
+    }
+  },
+  "ports": [
+    {
+      "name": "http",
+      "internalPort": 8080,
+      "public": true,
+      "protocol": "HTTP"
+    }
+  ]
+}
