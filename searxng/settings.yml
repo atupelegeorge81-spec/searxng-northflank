@@ -4,7 +4,6 @@ server:
   secret_key: "ulizosecretkeyyakoapahapa12345"
   limiter: false
   public_instance: false
-  method: "GET"
 
 search:
   formats:
