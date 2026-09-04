@@ -10,6 +10,16 @@ use_default_settings:
       - github
       - stackoverflow
 
+engines:
+  - name: bing
+  - name: google
+  - name: yandex
+  - name: naver
+  - name: yahoo
+  - name: seznam
+  - name: github
+  - name: stackoverflow
+
 server:
   secret_key: "ulizosecretkeyyakoapahapa12345"
   limiter: false
