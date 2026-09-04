@@ -1,4 +1,14 @@
-use_default_settings: true
+use_default_settings:
+  engines:
+    keep_only:
+      - bing
+      - google
+      - yandex
+      - naver
+      - yahoo
+      - seznam
+      - github
+      - stackoverflow
 
 server:
   secret_key: "ulizosecretkeyyakoapahapa12345"
