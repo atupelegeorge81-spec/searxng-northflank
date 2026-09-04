@@ -1,4 +1,4 @@
-FROM searxng/searxng:latest
+FROM searxng/searxng:2026.9.3-a1144dda3
 
 USER root
 
